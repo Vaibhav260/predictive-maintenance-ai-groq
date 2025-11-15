@@ -1,0 +1,20 @@
+# Core ML
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+
+# Explainability
+shap==0.43.0
+
+# Dashboard
+streamlit
+matplotlib
+seaborn
+
+# Groq (OpenAI-compatible)
+openai
+
+# Utils
+python-dotenv
