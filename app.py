@@ -133,7 +133,7 @@ with tab1:
         )
 
         if GROQ_API_KEY:
-            st.subheader("🤖 AI Maintenance Report (Groq)")
+            st.subheader("🤖 AI Maintenance Report")
             with st.spinner("Generating AI report..."):
                 report = groq_maintenance_report(input_dict, pred, prob)
             st.write(report)
@@ -143,7 +143,7 @@ with tab1:
 
 # -------- TAB 2: Maintenance Chatbot --------
 with tab2:
-    st.subheader("💬 Predictive Maintenance Chatbot (Groq)")
+    st.subheader("💬 Predictive Maintenance Chatbot")
     st.write(
         "Ask questions about model behavior, important features, or maintenance strategy."
     )
@@ -153,7 +153,7 @@ with tab2:
         placeholder="e.g., Why is high torque dangerous? How can we reduce false alarms? What features matter most?",
     )
 
-    if st.button("Ask Groq", key="ask_groq_btn"):
+    if st.button("Ask RiskBot", key="ask_groq_btn"):
         if not GROQ_API_KEY:
             st.warning("Set GROQ_API_KEY to enable chatbot.")
         elif not user_question.strip():
