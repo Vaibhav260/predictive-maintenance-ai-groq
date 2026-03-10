@@ -1,5 +1,5 @@
 🛠️ Predictive Maintenance for Industrial Machines
-Team 4 — Raj & Vaibhav | EM 538 Final Project | Spring 2025
+Team 4 | EM 538 Final Project | Spring 2025
 📌 Overview
 
 This project builds an end-to-end predictive maintenance system that uses industrial sensor data to predict machine failures before they occur.
@@ -179,5 +179,6 @@ Run XGBoost model prediction
 Show SHAP explanation
 
 Generate Groq AI maintenance reports
+
 
 Can be integrated with IoT pipelines for real-time monitoring.
